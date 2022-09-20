@@ -1,0 +1,10 @@
+{
+  "editor.wordWrap": "on",
+  "terminal.integrated.env.windows": {
+    /*"PATH": "${env:PATH};${workspaceFolder}\\bin;C:\\Python39"*/
+    "PATH": "C:\\Windows\\system32;${workspaceFolder}\\bin;C:/Users/dimas/AppData/Local/Programs/Python/Python39;C:/Users/dimas/AppData/Local/Programs/Python/Python39/Scripts"
+  },
+  "terminal.integrated.env.linux": {
+    "PATH": "${workspaceFolder}/bin:${env:PATH}"
+  },
+}
